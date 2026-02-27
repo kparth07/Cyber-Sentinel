@@ -1,0 +1,107 @@
+{
+  "corrections": [
+    {
+      "original_verdict": "Safe",
+      "corrected_verdict": "Scam",
+      "detected_signal_type": "unknown",
+      "timestamp": "2026-02-23T15:37:05.425617"
+    },
+    {
+      "original_verdict": "Safe",
+      "corrected_verdict": "Scam",
+      "detected_signal_type": "domain",
+      "timestamp": "2026-02-23T15:37:48.728013"
+    },
+    {
+      "original_verdict": "Safe",
+      "corrected_verdict": "Scam",
+      "detected_signal_type": "behavioral",
+      "timestamp": "2026-02-23T15:38:14.110292"
+    },
+    {
+      "original_verdict": "Suspicious",
+      "corrected_verdict": "Safe",
+      "detected_signal_type": "behavioral",
+      "timestamp": "2026-02-23T16:32:52.309435"
+    },
+    {
+      "original_verdict": "Suspicious",
+      "corrected_verdict": "Scam",
+      "detected_signal_type": "domain",
+      "timestamp": "2026-02-23T16:33:28.134121"
+    },
+    {
+      "original_verdict": "Suspicious",
+      "corrected_verdict": "Scam",
+      "detected_signal_type": "behavioral",
+      "timestamp": "2026-02-23T16:33:53.909720"
+    },
+    {
+      "original_verdict": "Safe",
+      "corrected_verdict": "Suspicious",
+      "detected_signal_type": "behavioral",
+      "timestamp": "2026-02-23T16:34:27.219496"
+    },
+    {
+      "original_verdict": "Safe",
+      "corrected_verdict": "Scam",
+      "detected_signal_type": "domain",
+      "timestamp": "2026-02-24T04:59:09.426074"
+    },
+    {
+      "original_verdict": "Safe",
+      "corrected_verdict": "Scam",
+      "detected_signal_type": "domain",
+      "timestamp": "2026-02-24T04:59:30.014683"
+    },
+    {
+      "original_verdict": "Safe",
+      "corrected_verdict": "Scam",
+      "detected_signal_type": "domain",
+      "timestamp": "2026-02-24T05:00:52.241303"
+    },
+    {
+      "original_verdict": "Suspicious",
+      "corrected_verdict": "Scam",
+      "detected_signal_type": "domain",
+      "timestamp": "2026-02-24T05:21:14.768684"
+    },
+    {
+      "original_verdict": "Safe",
+      "corrected_verdict": "Suspicious",
+      "detected_signal_type": "behavioral",
+      "timestamp": "2026-02-24T05:21:51.301998"
+    },
+    {
+      "original_verdict": "Suspicious",
+      "corrected_verdict": "Scam",
+      "detected_signal_type": "domain",
+      "timestamp": "2026-02-24T05:22:44.283285"
+    },
+    {
+      "original_verdict": "Safe",
+      "corrected_verdict": "Scam",
+      "detected_signal_type": "domain",
+      "timestamp": "2026-02-24T05:24:11.040275"
+    },
+    {
+      "original_verdict": "Safe",
+      "corrected_verdict": "Scam",
+      "detected_signal_type": "behavioral",
+      "timestamp": "2026-02-24T17:58:47.985002"
+    },
+    {
+      "original_verdict": "Suspicious",
+      "corrected_verdict": "Scam",
+      "detected_signal_type": "domain",
+      "timestamp": "2026-02-24T20:00:55.798833"
+    }
+  ],
+  "confidence_validations": 18,
+  "total_feedback": 34,
+  "weight_adjustments": {
+    "threat_intel": 0.448,
+    "domain_analysis": 0.304,
+    "behavioral": 0.248
+  }
+}

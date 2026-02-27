@@ -1,0 +1,223 @@
+{
+  "known_scam_urls": {
+    "http://secure-update-info.net/login": {
+      "reason": "User corrected from Scam",
+      "reported_at": "2026-02-23T15:16:00.385084",
+      "original_rank": "Scam",
+      "original_score": 43
+    },
+    "http://account-check-alert.org": {
+      "reason": "User corrected from Safe",
+      "reported_at": "2026-02-23T15:16:34.762921",
+      "original_rank": "Safe",
+      "original_score": 12
+    },
+    "http://paytm-security-check.net": {
+      "reason": "User corrected from Safe",
+      "reported_at": "2026-02-23T15:26:33.257208",
+      "original_rank": "Safe",
+      "original_score": 7
+    },
+    "http://192.168.1.10/login": {
+      "reason": "User corrected from Suspicious",
+      "reported_at": "2026-02-24T05:21:14.768684",
+      "original_rank": "Suspicious",
+      "original_score": 17
+    },
+    "https://outlook-security-team.net/reset": {
+      "reason": "User corrected from Suspicious",
+      "reported_at": "2026-02-24T05:22:44.283285",
+      "original_rank": "Suspicious",
+      "original_score": 16
+    },
+    "https://incometax-refund-gov.co.in": {
+      "reason": "User corrected from Safe",
+      "reported_at": "2026-02-24T05:24:11.040275",
+      "original_rank": "Safe",
+      "original_score": 5
+    },
+    "https://bank-kyc-portal.net": {
+      "reason": "User corrected from Safe",
+      "reported_at": "2026-02-24T17:58:47.986001",
+      "original_rank": "Safe",
+      "original_score": 13
+    },
+    "https://google-storage-extend.net": {
+      "reason": "User corrected from Suspicious",
+      "reported_at": "2026-02-24T20:00:55.798833",
+      "original_rank": "Suspicious",
+      "original_score": 20
+    }
+  },
+  "known_safe_urls": {},
+  "known_scam_patterns": {
+    "274fc9f4d99118b8": {
+      "preview": "hello, sir your parcel is ready to deliver plz confirm your address with an otp",
+      "reason": "User corrected from Safe",
+      "reported_at": "2026-02-23T15:06:16.654595",
+      "original_rank": "Safe"
+    },
+    "7e2119721492c1f0": {
+      "preview": "Your Paytm OTP is 447821.\nDo not share with anyone.\n\nIf this wasn't you, click:\nhttp://paytm-security-check.net",
+      "reason": "User corrected from Safe",
+      "reported_at": "2026-02-23T15:26:33.257208",
+      "original_rank": "Safe"
+    },
+    "633a777550d2b292": {
+      "preview": "Security update required.\n\nVisit:\nhttp://192.168.1.10/login",
+      "reason": "User corrected from Suspicious",
+      "reported_at": "2026-02-24T05:21:14.768684",
+      "original_rank": "Suspicious"
+    },
+    "1fe303a3814c29c8": {
+      "preview": "Invoice attached.\n\nPlease review immediately.",
+      "reason": "User corrected from Safe",
+      "reported_at": "2026-02-24T05:21:51.304321",
+      "original_rank": "Safe"
+    },
+    "0f05ddc8386d63c2": {
+      "preview": "Event: Password Reset Required\n\nJoin secure session:\nhttps://outlook-security-team.net/reset",
+      "reason": "User corrected from Suspicious",
+      "reported_at": "2026-02-24T05:22:44.283285",
+      "original_rank": "Suspicious"
+    },
+    "bc9fa106fce33a7a": {
+      "preview": "Income Tax Dept.\n\nRefund of ₹12,840 pending.\n\nClaim:\nhttps://incometax-refund-gov.co.in",
+      "reason": "User corrected from Safe",
+      "reported_at": "2026-02-24T05:24:11.040275",
+      "original_rank": "Safe"
+    },
+    "3ad44b2b051a0052": {
+      "preview": "As discussed with our support team,\n\nComplete KYC:\nhttps://bank-kyc-portal.net",
+      "reason": "User corrected from Safe",
+      "reported_at": "2026-02-24T17:58:47.986001",
+      "original_rank": "Safe"
+    },
+    "615c76f617991b6f": {
+      "preview": "Google storage full.\nUpgrade:\nhttps://google-storage-extend.net",
+      "reason": "User corrected from Suspicious",
+      "reported_at": "2026-02-24T20:00:55.798833",
+      "original_rank": "Suspicious"
+    }
+  },
+  "known_safe_patterns": {},
+  "stats": {
+    "total_feedback": 4,
+    "corrections": 10
+  },
+  "learned_signatures": [
+    {
+      "extracted_at": "2026-02-24T05:21:14.768684",
+      "content_type": "text",
+      "original_rank": "Suspicious",
+      "correct_verdict": "scam",
+      "signatures": {
+        "domains": [
+          "192.168.1.10"
+        ],
+        "domain_keywords": [],
+        "tlds": [],
+        "phishing_keywords": [
+          "login"
+        ],
+        "phone_numbers": [],
+        "brand_targets": [],
+        "url_patterns": [],
+        "behavioral_flags": []
+      },
+      "reason": "Extracted from user correction"
+    },
+    {
+      "extracted_at": "2026-02-24T05:22:44.283285",
+      "content_type": "text",
+      "original_rank": "Suspicious",
+      "correct_verdict": "scam",
+      "signatures": {
+        "domains": [
+          "outlook-security-team.net"
+        ],
+        "domain_keywords": [
+          "security"
+        ],
+        "tlds": [
+          "net"
+        ],
+        "phishing_keywords": [
+          "reset"
+        ],
+        "phone_numbers": [],
+        "brand_targets": [],
+        "url_patterns": [],
+        "behavioral_flags": []
+      },
+      "reason": "Extracted from user correction"
+    },
+    {
+      "extracted_at": "2026-02-24T05:24:11.040275",
+      "content_type": "text",
+      "original_rank": "Safe",
+      "correct_verdict": "scam",
+      "signatures": {
+        "domains": [
+          "incometax-refund-gov.co.in"
+        ],
+        "domain_keywords": [],
+        "tlds": [
+          "co.in"
+        ],
+        "phishing_keywords": [],
+        "phone_numbers": [],
+        "brand_targets": [],
+        "url_patterns": [],
+        "behavioral_flags": []
+      },
+      "reason": "Extracted from user correction"
+    },
+    {
+      "extracted_at": "2026-02-24T17:58:47.986001",
+      "content_type": "text",
+      "original_rank": "Safe",
+      "correct_verdict": "scam",
+      "signatures": {
+        "domains": [
+          "bank-kyc-portal.net"
+        ],
+        "domain_keywords": [],
+        "tlds": [
+          "net"
+        ],
+        "phishing_keywords": [],
+        "phone_numbers": [],
+        "brand_targets": [],
+        "url_patterns": [],
+        "behavioral_flags": [
+          "smishing"
+        ]
+      },
+      "reason": "Extracted from user correction"
+    },
+    {
+      "extracted_at": "2026-02-24T20:00:55.798833",
+      "content_type": "text",
+      "original_rank": "Suspicious",
+      "correct_verdict": "scam",
+      "signatures": {
+        "domains": [
+          "google-storage-extend.net"
+        ],
+        "domain_keywords": [],
+        "tlds": [
+          "net"
+        ],
+        "phishing_keywords": [],
+        "phone_numbers": [],
+        "brand_targets": [
+          "google"
+        ],
+        "url_patterns": [],
+        "behavioral_flags": []
+      },
+      "reason": "Extracted from user correction"
+    }
+  ]
+}
